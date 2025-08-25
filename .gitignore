@@ -1,0 +1,56 @@
+# =================================================================
+# File .gitignore per Progetti MATLAB & Simulink
+# =================================================================
+
+# File di Backup e Salvataggio Automatico di MATLAB
+*.asv
+*.bak
+*.autosave
+
+# File di salvataggio automatico per Simulink e Live Scripts
+*.slx.autosave
+*.mlx.autosave
+
+# Cache di Simulink, Stateflow e file generati
+slprj/
+sfprj/
+_sharedutils/
+*.slxc
+
+# File compilati (MEX) per tutte le architetture
+*.mex*
+
+# Output del MATLAB Coder e GPU Coder
+codegen/
+
+# App, Pacchetti e Toolbox impacchettati per l'installazione
+*.mlappinstall
+*.mlpkginstall
+*.mltbx
+
+# Preferenze di MATLAB e file utente di progetto
+# (Spesso specifici per la macchina e non dovrebbero essere condivisi)
+matlab.prf
+*.prj.user
+
+# Report di MATLAB (es. Code Analyzer, Profiler)
+*.html
+*.pdf
+
+# File di output e dati di grandi dimensioni
+# ATTENZIONE: Descommenta e adatta questa sezione se generi
+# file di dati che non vuoi tracciare.
+# Se invece i file .mat sono dati di input, NON aggiungerli qui.
+# *.mat
+# *.fig
+
+# File temporanei di MATLAB
+matlab_crash_dump*
+MATLAB_Editor_State
+
+# File del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignora la cartella _
+_/
